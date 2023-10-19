@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CourseController {
     @GetMapping("/")
     public String getAllCourses(){
-        return "All Courses";
+        return "Courses";
     }
 
 }
